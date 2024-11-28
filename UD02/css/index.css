@@ -1,0 +1,35 @@
+/*
+Autor: Rossana Katherine Cruz Useche
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - SITIO WEB
+*/
+
+/*Estilo del contenido de la página*/
+
+/* Sección contenedor */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 0 auto;
+    /* Centramos el contenedor */
+    max-width: 960px;
+    /* Ajustamos el ancho máximo */
+}
+
+.contenedor img {
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.contenedor div {
+    max-width: 600px;
+}
+
+h4 {
+    font-size: 1.2em;
+}

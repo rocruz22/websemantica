@@ -1,0 +1,92 @@
+<!--
+Autor: Rossana Katherine Cruz Useche
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - SITIO WEB
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usetxe</title>
+
+    <!-- Normalize.css para la consistencia entre navegadores -->
+    <link rel="stylesheet" href="UD02/css/normalize.css">
+
+    <!--Conexion con los ficheros de GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Diphylleia&display=swap" rel="stylesheet">
+
+    <!--Ficheros utilizados para darle estilo a la página-->
+    <link rel="stylesheet" href="UD02/css/estilos.css">
+    <link rel="stylesheet" href="UD02/css/contacto.css">
+</head>
+
+<!--Cabecera-->
+<header>
+    <h1>Usetxe</h1>
+    <!--Menú de navegación-->
+    <nav>
+        <ul class="navegacion">
+            <li> <a href="index.html">Inicio</a> </li>
+            <li> <a href="sobrearte.html">Sobre arte</a> </li>
+            <li> <a href="retratos.html">Retratos</a> </li>
+            <li> <a href="contacto.html">Contacto</a> </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <section class="bienvenida">
+            <h2>Ponte en contacto conmigo </h2>
+        </section>
+        <p class="introduccion">Si quieres hablar sobre alguna idea que tengas en mente para un retrato, no dudes en
+            ponerte en contacto conmigo.</p>
+        <section class="contact-section">
+            <img src="UD02/img/kira.jpg" alt="No carga la imagen" width="400" height="500">
+            <form id="contacto-form" action="index.html" method="get">
+                <fieldset>
+                    <legend>Información detallada</legend>
+
+                    <label for="nombre">Nombre:</label> <br>
+                    <input type="text" id="nombre" name="nombre" value=""> <br>
+
+                    <label for="apellido">Apellido:</label> <br>
+                    <input type="text" id="apellido" name="apellido" value=""> <br>
+
+                    <label for="correo">Correo:</label> <br>
+                    <input type="email" id="correo" name="correo" value=""> <br>
+
+                    <label for="sujeto">Selecciona el número de sujetos:</label> <br>
+                    <select name="lista" id="sujeto">
+                        <option value="sujeto1"> Un sujeto</option>
+                        <option value="sujeto2"> Dos sujetos</option>
+                        <option value="sujeto3"> Tres sujetos</option>
+                    </select> <br>
+                    <button type="submit" value="Enviar">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!--Pie de página-->
+    <footer>
+        <div id="copy">
+            <p>&copy;2024 Usetxe</p>
+        </div>
+        <!--Redes Sociales-->
+        <aside id="redes">
+            <ul>
+                <li><a href="https://www.instagram.com/usetxe22/" target="_blank">Imagen de instagram</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100079858513477&locale=es_ES"
+                        target="_blank">Imagen de facebook</a></li>
+            </ul>
+        </aside>
+    </footer>
+</body>
+
+</html>

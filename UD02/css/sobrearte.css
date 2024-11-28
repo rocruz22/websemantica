@@ -1,0 +1,44 @@
+.introduccion {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+
+.info {
+    text-align: center;
+    width: 30%;
+}
+
+h3 {
+    border: 2px solid #453a28;
+    padding-bottom: 5px;
+    color: #453a28;
+    background-color:  rgb(236, 236, 230);;
+}
+.contenido {
+    display: flex;
+    align-items: center;
+}
+
+.parrafo {
+    text-align: justify;
+    padding: 10px;
+    background-color: rgb(120, 107, 84);
+    border-radius: 5px;
+    
+}
+
+.seguir{
+    float: right;
+    background-color: #453a28;
+    border-radius: 5px;
+    padding: 5px;
+}
