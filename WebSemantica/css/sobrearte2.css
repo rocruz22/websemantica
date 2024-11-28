@@ -1,0 +1,88 @@
+/*
+Autor: Rossana Katherine Cruz Useche
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - SITIO WEB
+*/
+
+/*Estilo del contenido de la página*/
+
+.introduccion {
+    text-align: center;
+    width: 90%;
+    margin: 30px auto;
+    font-size: 1.2em;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+    /* Espacio debajo de cada bloque de información */
+    flex: 1;
+    margin: 10px;
+    /* Añade espacio alrededor de cada bloque de información */
+}
+
+h3 {
+    border: 2px solid #453a28;
+    padding: 10px;
+    /* Aumenta el relleno para un mejor aspecto */
+    color: #453a28;
+    background-color: rgb(236, 236, 230);
+    margin-bottom: 10px;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Asegura que el texto y el video se mantengan juntos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+    gap: 20px;
+    /* Añade espacio entre los elementos */
+}
+
+.parrafo {
+    text-align: justify;
+    padding: 10px;
+    background-color: rgb(120, 107, 84);
+    border-radius: 5px;
+    width: 65%;
+    /* Ajusta el ancho del párrafo para mantener espacio al lado para el vídeo */
+    box-sizing: border-box;
+    margin-bottom: 0;
+    /* Elimina el margen inferior */
+    flex: 2;
+}
+
+.seguir {
+    float: right;
+    background-color: #453a28;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 10px;
+    /* Añade margen para separar del contenido */
+}
+
+.video {
+    width: 30%;
+    margin-left: 0px;
+    /* Reduce el margen izquierdo para acercar el vídeo al texto */
+    max-width: 500px;
+    /* Asegura que el video se vea más grande */
+    height: auto;
+    /* Mantiene la proporción del video */
+    flex: 1;
+}

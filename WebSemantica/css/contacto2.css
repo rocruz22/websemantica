@@ -1,0 +1,107 @@
+/*
+Autor: Rossana Katherine Cruz Useche
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - SITIO WEB
+*/
+
+/*Estilo del contenido de la página*/
+
+.introduccion {
+    text-align: center;
+    width: 90%;
+    margin: 30px auto;
+    font-size: 1.2em;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.contact-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(236, 236, 230);
+    color: #453a28;
+    justify-content: center;
+    font-size: 1em;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+legend {
+    text-align: center;
+}
+
+label,
+input,
+select,
+button {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: .8em;
+}
+
+input {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    background-color: #b3a086;
+    border: 1px solid rgb(107, 109, 57);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    background-color: #453a28;
+    color: #fff;
+    border: none;
+    position: relative;
+    top: 10px;
+}
+
+    /* Ajuste para Flexbox sin media queries */
+    .contact-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contact-section img {
+        margin-right: 20px;
+        margin-bottom: 0;
+        flex: 1 1 auto;
+    }
+
+    .contact-section form {
+        flex: 1 1 auto;
+    }

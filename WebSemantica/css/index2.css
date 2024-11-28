@@ -1,0 +1,47 @@
+/*
+Autor: Rossana Katherine Cruz Useche
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - SITIO WEB
+*/
+
+/*Estilo del contenido de la página*/
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    /* Mantén la disposición en fila por defecto */
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 20px auto;
+    /* Ajuste el margen para centrar */
+    max-width: 960px;
+    /* Ajusta el ancho máximo */
+    box-sizing: border-box;
+    /* Incluye padding en el ancho */
+    flex-wrap: wrap;
+}
+
+.contenedor img {
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    /* Ajusta el ancho máximo de la imagen */
+    width: auto;
+    /* Ajusta el ancho de la imagen */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+.contenedor div {
+    max-width: 600px;
+    /* Ajusta el ancho máximo del div */
+    flex: 1;
+}
+
+h4 {
+    font-size: 1.2em;
+}

@@ -1,0 +1,121 @@
+/*
+Autor: Rossana Katherine Cruz Useche
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - SITIO WEB
+*/
+
+/* Normalize.css ya aplicado previamente */
+
+/* Estilos generales */
+body {
+    font-family: "Diphylleia", sans-serif;
+    background-color: #b3a086;
+    color: rgb(236, 236, 230);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el contenedor principal */
+main {
+    flex: 1;
+    /* Asegura que el main ocupe el espacio disponible */
+}
+
+/* Estilo para todos los enlaces de las páginas */
+a {
+    text-decoration: none;
+    color: rgb(236, 236, 230);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para la cabecera */
+header {
+    background-color: #453a28;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid rgb(236, 236, 230);
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav {
+    font-size: 1.3em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* Estilo para el texto de bienvenida de cada página */
+.bienvenida {
+    text-align: center;
+    padding: 20px 40px;
+    background: rgb(120, 107, 84);
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.bienvenida h2 {
+    font-size: 1.8em;
+}
+
+.bienvenida h3 {
+    font-size: 1.5em;
+}
+
+/* Estilo para el footer de todas las páginas */
+footer {
+    background-color: #453a28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-top: 5px solid rgb(236, 236, 230);
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#copy,
+#redes {
+    margin: 10px;
+}
+
+#redes ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+#redes ul li {
+    margin-right: 20px;
+}

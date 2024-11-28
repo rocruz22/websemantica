@@ -1,0 +1,66 @@
+/*
+Autor: Rossana Katherine Cruz Useche
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - SITIO WEB
+*/
+
+/*Estilos generales del cuerpo de la página*/
+.introduccion {
+    text-align: center;
+    width: 90%;
+    margin: 30px auto;
+    font-size: 1.2em;
+}
+
+.retratos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(107, 109, 57);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+/* Colores específicos para cada contenedor */
+.contenedor:nth-of-type(1) {
+    background-color: rgb(107, 109, 57);
+}
+
+.contenedor:nth-of-type(2) {
+    background-color: rgb(156, 117, 82);
+}
+
+.contenedor:nth-of-type(3) {
+    background-color: rgb(57, 109, 105);
+}
+
+.definicion {
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info {
+    float: right;
+    border: 2px solid rgb(236, 236, 230);
+    padding: 5px;
+    margin-top: 20px;
+}
+
+/* Ajuste de para mantener el diseño en fila */
+.contenedor {
+    flex-direction: row;
+}
